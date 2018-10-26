@@ -19,12 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2018-10-26 14:41:31','Successfully created a new repository.','init','admin'),(2,'2018-10-26 14:41:48','Successfully backed up the database.','backup','admin'),(3,'2018-10-26 14:43:44','Committed <a href=\"http://35.184.206.37/wp-admin/admin.php?page=revisr_view_commit&commit=716693b&success=true\">#716693b</a> to the local repository.','commit','admin'),(4,'2018-10-26 14:56:17','Successfully imported the database. ','import','admin'),(5,'2018-10-26 14:56:30','Successfully imported the database. ','import','admin'),(6,'2018-10-26 14:56:42','Successfully imported the database. ','import','admin'),(7,'2018-10-26 14:56:54','Successfully imported the database. ','import','admin'),(8,'2018-10-26 14:57:06','Successfully imported the database. ','import','admin');
+INSERT INTO `wp_revisr` VALUES (1,'2018-10-26 14:41:31','Successfully created a new repository.','init','admin'),(2,'2018-10-26 14:41:48','Successfully backed up the database.','backup','admin'),(3,'2018-10-26 14:43:44','Committed <a href=\"http://35.184.206.37/wp-admin/admin.php?page=revisr_view_commit&commit=716693b&success=true\">#716693b</a> to the local repository.','commit','admin'),(4,'2018-10-26 14:56:17','Successfully imported the database. ','import','admin'),(5,'2018-10-26 14:56:30','Successfully imported the database. ','import','admin'),(6,'2018-10-26 14:56:42','Successfully imported the database. ','import','admin'),(7,'2018-10-26 14:56:54','Successfully imported the database. ','import','admin'),(8,'2018-10-26 14:57:06','Successfully imported the database. ','import','admin'),(9,'2018-10-26 14:57:19','Successfully imported the database. ','import','admin');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
