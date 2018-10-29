@@ -16,7 +16,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-
+.test {
+	
+}
 .stm_gmap_wrapper .alert {
     margin-bottom: 0;
 }
