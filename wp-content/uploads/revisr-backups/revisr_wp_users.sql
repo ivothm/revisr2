@@ -27,12 +27,12 @@ CREATE TABLE `wp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`),
   KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'admin','$P$B7SpZom/Olu./rm64kTZLXf9LmiQwT.','admin','norgaydev@gmail.com','','2018-10-12 14:19:59','',0,'admin'),(2,'rdecanaga','$P$BE5G2XOL4lHzaDcPu0pAugk88rHTZv1','rdecanaga','rdecanaga@masonite.com','','2018-10-16 15:05:32','',0,'rosalie de canaga'),(3,'jlutz','$P$BTSNGLzHnVbMD94Thegfu5M1.eMb8C0','jlutz','','','2018-10-17 12:42:14','',0,'jlutz'),(5,'treece','$P$B0RoWiAZF3rsMBPv2ixSl4vLzABTyQ.','treece','treece@masonite.com','','2018-10-25 19:31:11','1540495871:$P$B06HtB4OK7ygD7FFkaazpoqJGjDZhb.',0,'T R'),(6,'ivoth','$P$BIsh3ruMy3X1ZbXbZN7tIc1caawkl2.','ivoth','ivoth@masonite.com','','2018-10-26 11:59:41','',0,'Isaac Voth');
+INSERT INTO `wp_users` VALUES (1,'admin','$P$B7SpZom/Olu./rm64kTZLXf9LmiQwT.','admin','norgaydev@gmail.com','','2018-10-12 14:19:59','',0,'admin'),(2,'rdecanaga','$P$BE5G2XOL4lHzaDcPu0pAugk88rHTZv1','rdecanaga','rdecanaga@masonite.com','','2018-10-16 15:05:32','',0,'rosalie de canaga'),(3,'jlutz','$P$BTSNGLzHnVbMD94Thegfu5M1.eMb8C0','jlutz','','','2018-10-17 12:42:14','',0,'jlutz'),(5,'treece','$P$B0RoWiAZF3rsMBPv2ixSl4vLzABTyQ.','treece','treece@masonite.com','','2018-10-25 19:31:11','1540495871:$P$B06HtB4OK7ygD7FFkaazpoqJGjDZhb.',0,'T R'),(6,'ivoth','$P$BIsh3ruMy3X1ZbXbZN7tIc1caawkl2.','ivoth','ivoth@masonite.com','','2018-10-26 11:59:41','',0,'Isaac Voth'),(7,'gvetsa','$P$BzouKa4X1dXFI/ZGly.I3c726laNut.','gvetsa','gvetsa@masonite.com','http://www.craigslist.com','2018-10-30 17:23:15','1540920195:$P$BPwnWCOk7VW.th3VPQU1yXNcumCJVB.',0,'Ganesh Vetsa');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
